@@ -14,7 +14,7 @@ export default function AppBar() {
   return (
     <header className="sticky top-0 lg:top-8 z-50 lg:w-1/3 mx-auto lg:rounded-full bg-neutral-900">
       <nav
-        className="flex items-center justify-around p-3 lg:px-4 text-sm lg:tracking-wide lg:font-semibold leading-6"
+        className="flex items-center justify-around p-3 lg:px-4 text-sm lg:tracking-wide lg:font-semibold leading-6 text-neutral-300"
         aria-label="Global"
       >
         {NAV_LINKS.map(({ href, label }, index) => (
